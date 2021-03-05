@@ -1,6 +1,6 @@
 #!/bin/bash
 # Cloning the Updated neofetch script from https://raw.githubusercontent.com/Jai-JAP/neofetch/main/neofetch to /tmp/neofetch
-wget -q https://raw.githubusercontent.com/Jai-JAP/neofetch/main/neofetch -O /tmp/neofetch
+wget -q https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch -O /tmp/neofetch
 
 # Make neofetch script executable
 chmod +x /tmp/neofetch
@@ -18,7 +18,4 @@ sudo rm /tmp/neofetch
 sudo apt install wmctrl
 
 # Updating the .neofetch script in home directory
-sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b toggle,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch 
-
-# Delete install.sh file
-sudo rm ./install.sh
+sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b toggle,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch
