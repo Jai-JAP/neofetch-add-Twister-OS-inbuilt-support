@@ -11,9 +11,6 @@ sudo mv /tmp/neofetch /usr/bin/neofetch
 # Removing all old neofetch configs
 sudo rm -rf ~/.config/neofetch/*
 
-# Removing the neofetch folder from /tmp
-sudo rm /tmp/neofetch
-
 # Installing dependencies required to improve .neofetch script
 sudo apt install wmctrl
 
