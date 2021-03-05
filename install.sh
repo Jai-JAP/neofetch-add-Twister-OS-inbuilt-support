@@ -19,3 +19,6 @@ sudo apt install wmctrl
 
 # Updating the .neofetch script in home directory
 sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b toggle,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch 
+
+# Delete install.sh file
+sudo rm ./install.sh
