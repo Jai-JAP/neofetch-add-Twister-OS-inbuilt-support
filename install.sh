@@ -1,5 +1,5 @@
 #!/bin/bash
-# Cloning the Updated neofetch script from https://raw.githubusercontent.com/Jai-JAP/neofetch/main/neofetch to /tmp/neofetch
+# Cloning the Updated neofetch script from https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch to /tmp/neofetch
 wget -q https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch -O /tmp/neofetch
 
 # Make neofetch script executable
