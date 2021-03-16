@@ -15,4 +15,4 @@ sudo rm -rf ~/.config/neofetch/*
 sudo apt install wmctrl
 
 # Updating the .neofetch script in home directory
-sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b toggle,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch
+sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b add,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch
