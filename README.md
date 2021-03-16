@@ -29,5 +29,12 @@ sudo rm -rf ~/.config/neofetch/*
 sudo apt install wmctrl
 
 # Updating the .neofetch script in home directory
-sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b add,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch
+neofetch_patch_check="$(cat ~/.neofetch | grep "wmctrl")"
+if [[ -z $neofetch__launch_scriptpatch_check ]] ; then
+  sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b add,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch 
+  echo "neofetch script patched successfully"
+elif [[ -n $neofetch_launch_script_patch_check ]] ; then
+  echo "neofetch scripe already patched" 
+fi
+
 ```
