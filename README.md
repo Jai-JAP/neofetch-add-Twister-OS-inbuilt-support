@@ -1,4 +1,4 @@
-#neofetch-native-Twister-OS-support
+# neofetch-native-Twister-OS-support
 neofetch with inbuilt Twister OS support and patch to install it.
 
 
