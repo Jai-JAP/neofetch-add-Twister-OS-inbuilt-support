@@ -29,13 +29,13 @@ Installing dependencies required to improve .neofetch script
 
 Updating the .neofetch launch script in home directory
 ```
-if [[ -x ~/.neofetch ]] ; then
-  if [[ -z "$(cat ~/.neofetch | grep wmctrl)" ]] ; then
-    sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b add,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch 
-    echo ".neofetch launch script patched successfully."
-  elif [[ -n "$(cat ~/.neofetch | grep wmctrl)" ]] ; then
-    echo ".neofetch launch script already patched." 
-  fi
-else echo ".neofetch launch script does not exist."
+if [[ -x ~/.neofetch ]] ; then ;
+  if [[ -z "$(cat ~/.neofetch | grep wmctrl)" ]] ; then ;
+    sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b add,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch ; 
+    echo ".neofetch launch script patched successfully." ;
+  elif [[ -n "$(cat ~/.neofetch | grep wmctrl)" ]] ; then ;
+    echo ".neofetch launch script already patched." ;
+  fi ;
+else echo ".neofetch launch script does not exist." ;
 fi
 ```
