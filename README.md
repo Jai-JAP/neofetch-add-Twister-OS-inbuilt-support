@@ -1,4 +1,4 @@
-# neofetch-add-Twister-OS-inbuilt-support
+#neofetch-native-Twister-OS-support
 neofetch with inbuilt Twister OS support and patch to install it.
 
 
@@ -8,7 +8,7 @@ Some improvements are also made in .neofetch script of Twister OS used for openi
 
 To install this version of neofetch automatically on Twister OS run:  
 
-`wget -qO- https://raw.githubusercontent.com/Jai-JAP/neofetch-add-Twister-OS-inbuilt-support/main/install.sh | bash`
+`wget -qO- https://raw.githubusercontent.com/Jai-JAP/neofetch-native-Twister-OS-support/main/install.sh | bash`
 
 To install this version of neofetch on Twister OS manually run:
 
