@@ -39,3 +39,11 @@ if [[ -x ~/.neofetch ]] ; then ;
 else echo ".neofetch launch script does not exist." ;
 fi
 ```
+or 
+
+Directly [download](https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb) and install the [.deb file](https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/blob/main/neofetch_twister-os_support_7.1.0-2_all.deb)
+
+```
+wget https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb -O neofetch-twister-os.deb
+sudo dpkg -i ./neofetch-twister-os.deb
+```
