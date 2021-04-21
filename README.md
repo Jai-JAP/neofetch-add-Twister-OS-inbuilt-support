@@ -6,11 +6,21 @@ Neofetch script with added inbuilt support for Twister OS. Updated scripts avail
 
 Some improvements are also made in .neofetch script of Twister OS used for opening neofetch from start-menu located at /home/pi/.neofetch (Only in Twister OS) to open neofetch window maximised by default so that information is not hidden.
 
-To install this version of neofetch automatically on Twister OS run:  
+### To install this version of neofetch automatically on Twister OS run:  
 
 `wget -qO- https://raw.githubusercontent.com/Jai-JAP/neofetch-native-Twister-OS-support/main/install.sh | bash`
 
-To install this version of neofetch on Twister OS manually run:
+or 
+
+Directly [download](https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb) and install the [.deb file](https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/blob/main/neofetch_twister-os_support_7.1.0-2_all.deb)
+
+```
+wget https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb -O neofetch-twister-os.deb
+sudo dpkg -i ./neofetch-twister-os.deb
+sudo rm ./neofetch-twister-os.deb
+```
+
+### To install this version of neofetch on Twister OS manually run:
 
 Clone the Updated neofetch script from [source](https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch) to /tmp/neofetch  
 `wget -q https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch -O /tmp/neofetch`
@@ -38,13 +48,4 @@ if [[ -x ~/.neofetch ]] ; then ;
   fi ;
 else echo ".neofetch launch script does not exist." ;
 fi
-```
-or 
-
-Directly [download](https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb) and install the [.deb file](https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/blob/main/neofetch_twister-os_support_7.1.0-2_all.deb)
-
-```
-wget https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb -O neofetch-twister-os.deb
-sudo dpkg -i ./neofetch-twister-os.deb
-sudo rm ./neofetch-twister-os.deb
 ```
