@@ -46,5 +46,5 @@ Directly [download](https://github.com/Jai-JAP/neofetch-native-Twister-OS-suppor
 ```
 wget https://github.com/Jai-JAP/neofetch-native-Twister-OS-support/raw/main/neofetch_twister-os_support_7.1.0-2_all.deb -O neofetch-twister-os.deb
 sudo dpkg -i ./neofetch-twister-os.deb
-sudo rm ./neofetch-twister-od.deb
+sudo rm ./neofetch-twister-os.deb
 ```
